@@ -21,13 +21,13 @@ serj = Number.parseInt(serj);
 console.log('My age is', serj, 'years old');
 
 // Возведение в степень  
-// let userNumb = prompt('Введите число');
-// userNumb = Number(userNumb);
-// console.log(typeof(userNumb));
+let userNumb = prompt('Введите число');
+userNumb = Number(userNumb);
+console.log(typeof(userNumb));
 
-// let userPow = prompt('Введите степень');
-// userPow = Number(userPow);
+let userPow = prompt('Введите степень');
+userPow = Number(userPow);
 
-// let result = Math.pow(userNumb, userPow);
-// console.log(result);
+let result = Math.pow(userNumb, userPow);
+alert(`Число ${userNumb} в степени ${userPow} равно ${result}`);
 
