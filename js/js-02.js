@@ -1,8 +1,10 @@
-//  Замена цвета в body
-const colors = ['tomato', 'teal', 'orange', 'green', 'skyblue', 'deeppink'];
-const min = 0;
-const max = colors.length -1;
-const randomColor = Math.round(Math.random() * (max - min) + min);
-const color =  colors[randomColor];
-console.log(color);
-document.body.style.backgroundColor = color;
+// Возведение в степень
+let userNumber = prompt('Введите число'); //Promt всегда возвращает строку.
+userNumber = Number(userNumber); //Преобразовываем в число.
+console.log(typeof(userNumber));
+
+let userPow = prompt('Введите степень');
+userPow = Number(userPow);
+
+let result = Math.pow(userNumber, userPow);
+alert(`Число ${userNumber} в степени ${userPow} равно ${result}`);
