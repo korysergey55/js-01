@@ -1,17 +1,17 @@
 // Операторы ветвления
-const earn = 500;
+const earns = 500;
 
-if(earn >= 5000){
-    console.log('Level-1');
-}  else if(earn >= 7000){
-    console.log('Lavel-2');
-} else if (earn >= 10000){
-    console.log('Lavel-3');
+if(earns >= 500){
+    console.log(`In this manth yours salary lavel-1. You earns- ${earns} $.`);
+}  else if(earns >= 7000){
+    console.log(`In this manth yours salary lavel-1. You earns- ${earns} $.`);
+} else if (earns >= 10000){
+    console.log(`In this manth yours salary lavel-1. You earns- ${earns} $.`);
 } else {
-    console.log('You are not our client.')
+    console.log(`You earns ${earns}$.`)
 }
 
 // Тернарный оператор
 const balanse = 100;
-let massage = balanse > 0 ? 'ballanse is pozitiv' : 'balanse is negative';
+let massage = balanse > 0 ? 'Yours ballanse is pozitiv' : 'Yours balanse is negative';
 console.log(massage);

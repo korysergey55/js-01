@@ -1,12 +1,12 @@
 //узнать тип данных.............typeof
 const a = 2000;
 const b = 20;
-const c = a + b;
 const d = "hello world"
-console.log(d, c);
+const c = a + b;
 
 console.log(typeof(c));
 console.log(typeof(d));
+console.log(d, c);
 
 const type = typeof(c);
 console.log(type);
@@ -15,23 +15,23 @@ const typeInput = typeof(d);
 console.log(typeInput);
 
 //преобразование к числу.............Number.parseInt(),Number.parseFloat();
-let serj = "30 years";
-serj = Number.parseInt(serj);
-console.log('My age is', serj, 'years old');
+let userName = "30years";
+userName = Number.parseInt(userName);  
+console.log('My age is', userName, 'years old.');
 
-// Отсечение чисел после запятой.............. toFixed();
+// Отсечение чисел после запятой.............. toFixed(); // Возвращает строку
 let salary = 1300.4457;
-salary = salary.toFixed(2);
-console.log('toFixed(2)', salary);
+salary = salary.toFixed(3);
+console.log('toFixed(3)', salary);
 
 // Преведение в нижний регистр.............toLowerCase();
 let brand = 'Samsung'
 console.log(brand);
 console.log(brand.length); // длинна строки
-console.log(brand[0]); // индекс элемента в строке
+console.log(brand[1]); // индекс элемента в строке
 
-const brandLower = brand.toLowerCase();
-console.log(brandLower);
+const brandLow = brand.toLowerCase();
+console.log(brandLow);
 
 // Поиск в строке................includes();
 console.log(brand.includes('Samsung')); // true
